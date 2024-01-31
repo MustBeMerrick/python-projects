@@ -1,5 +1,5 @@
 # 1) Write a program that prompts a user for their name,
-#    then tells them to go blow a balloon
+#    then tells them to go blow a balloon.
 
 # 2) Write a program that prompts a user for their favorite
 #    programming language, and if it's python, print out
