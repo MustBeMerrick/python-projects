@@ -5,6 +5,7 @@
 Score1=input('Enter Score1:')
 Score2=input('Enter Score2:')
 #Display the larger number
+#Including function type = integer so that multiple digit numbers are recognized
 if int(Score1)>int(Score2):
   print('Highscore: ',Score1)
 
