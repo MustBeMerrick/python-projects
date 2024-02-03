@@ -3,12 +3,8 @@
 #    The max value of the integer should be 7
 
 user=input('Please input an integer 1-7: ')
-a=1
-b=2
-c=3
-d=5
-e=8
-f=13
+
+a,b,c,d,e,f=1,2,3,5,8,13
 
 if (user=='1'):
   print(a)
@@ -30,3 +26,13 @@ if (user=='6'):
 
 if (user=='7'):
   print(a,',', a+a,',',a+b,',',b+c,',',c+d,',',d+e,',',e+f)
+
+#if (user!='1'or'2'or'3'or'4'or'5'or'6'or'7'):
+if (user!='1')and(user!='2')and(user!='3')and(user!='4')and(user!='5')and(user!='6')and(user!='7'):
+  print('no')
+
+numbers = ['1','2','3','4','5','6','7']
+coords = [[1,2,3,4,5,6,7],[1,2,3,5,8,13,21]]
+print('Fun Factz:')
+print('Fibz biggest value for input', coords[1][6])
+print('Fibz littlest value for input', coords[0][0])
