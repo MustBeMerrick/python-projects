@@ -1,0 +1,61 @@
+-------------- FOR Loops --------------
+
+1)  Write code that prints out the numbers 1 through 10
+2)  Write code that prints out the numbers 5 through 49
+3)  Write code that prompts the user for a number and prints out the numbers 0 through their number
+4)  Write code that prints out all even numbers between 1 and 100
+5)  Write code that prints out all odd numbers between 1 and 100
+6)  Write code that prints out all numbers between 1 and 100 that are multiples of 3
+7)  Write code that prompts user for a string and print out each character of that string
+8)  Write code that prompts user for 5 objects and use them to create a list. Then, print out each item in the list
+
+-------------- WHILE Loops --------------
+
+9-16) Do the above problems using a while loop instead of a for loop
+
+** HINTS! **
+  - Try initializing a separate variable (i=0, char_i=0, etc) to use as an iterator
+  - If stuck, you can always simply use an infinite while loop (while True:) combined with an if/else to break out
+
+ -------------- IF/ELSE Conditions --------------
+
+17) Write code that prompts the user for their age. If the number is less than 4, print "You're a baby". Otherwise, print "You're not a baby"
+18) Write code that prompts the user for their age. 
+    If < 4, print "You're a baby"
+    If between 4 and 18, print "You're still growing"
+    If > 18, print "You're an adult"
+19) Write code that prompts the user for their age and height (in feet).
+    If their age is < 12 print "You're still growing"
+    Otherwise, if their height is > 6.5 ft, print "You're super tall"
+20) Write code that prompts the user for their age and height (in feet).
+    If their age is < 12 print "You're still growing"
+    Otherwise, if their age is > 12 and their height is less than 4 ft, print "You might be a dwarf"
+    Otherwise, if their age is > 12 and their height is greater than 6.5 ft, print "You're super tall"
+    If none of the conditions are met, print "Guess you're average"
+
+-------------- Lists/Dictionaries --------------
+Create the following list: (apple, salad, chips, cake, yogurt, peppers, wine)
+
+21) Print out the 3rd item in the list
+22) Print out the 4th item in the list
+23) Print out the last item in the list
+24) Prompt the user for a number between [0-6] and print out that item in the list
+25) Prompt the user for two numbers between [0-6] and print out those two items in the list
+26) Print out all items in the list
+
+Create the following dictionary: 
+apple:   1
+salad:   3
+chips:   2
+cake:    9
+yogurt:  2
+peppers: 4
+wine     12
+
+27) Print out the number associated with cake
+28) Print out the number associated with apple
+29) Print out the number associated with wine
+30) Prompt user for an item in the list, and print out the number associated with that item
+31) Print out the length of the list
+32) Write code to append an item to the dictionary. Append "carrots: 5"
+33) Write code to iterate ofer the dictionary and print out each number associated with each item
