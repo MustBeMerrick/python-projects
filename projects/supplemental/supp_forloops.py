@@ -41,8 +41,8 @@
 
   #user_input=input('Enter word: ')
   #
-  #for i in user_input:
-  #  print(i)
+  #for item in user_input:
+  #  print(item)
 
 #8)  Write code that prompts user for 5 objects and use them to create a list. Then, print out each item in the list        
 
@@ -54,5 +54,5 @@
   #
   #list = [user_list1,user_list2,user_list3,user_list4,user_list5]
   #
-  #for i in list:
-  #  print(i)
+  #for item in list:
+  #  print(item)
