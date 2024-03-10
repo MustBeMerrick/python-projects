@@ -1,0 +1,32 @@
+--- Free Response ---
+1)  What is the difference between global and local variables?
+
+2)  Why are global variables not recommended when coding?
+
+3)  If a function declaration has 3 arguments/parameters, what is:
+  a)  the minimum number of arguments required to be passed to that function call if 1 argument has a default value defined?
+
+  b)  the minimum number of arguments required to be passed to that function call if 2 arguments have default values defined?
+
+  c)  the minimum number of arguments required to be passed to that function call if all 3 arguments have default values defined?
+
+  d)  the maximum number of arguments that may be passed to that function call?
+
+4)  What is the difference between arguments by position and passing arguments by name?
+
+--- Coding Exercises ---
+5)  Define a function called inc2 that takes in a number and returns that number incremented by 2. In the main body of your code, prompt the user for a number, call the function, and print the result
+
+6)  Define a function called product that takes in 2 numbers and returns their product. In the main body of your code, prompt the user for tw numbers, call the function, and print the result
+
+7)  Define a function called calculator that takes in 2 numbers and a string. The function does the following:
+      string = add      : return the sum of the two numbers
+      string = subtract : return the difference between the first and second numbers (first - second)
+      string = multiply : return the product of the two numbers
+      string = divide   : return the quotient of the first number divided by the second number
+      string = mod      : return the remainder when the first number is divided by the second number
+  In your main body code, prompt the user for two numbers and a string, execute the function, and print the result
+
+8)  Use the function you defined in #7 to prompt the user for 8 numbers and 4 strings. Call the function 4 times. The first two numbers and first string will be arguments to the first function call, the second two numbers and second string will be arguments to the second function call, etc.
+
+9) Use the function you defined in #7. Prompt the user for two numbers and an operation indefinitely. After the result is computed and displayed, ask the user if they want to continue and repeat as needed.
